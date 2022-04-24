@@ -1,4 +1,5 @@
-/*****************************
+/* eslint-disable */
+/** ***************************
 ** Travailler avec des variables
 ** importance: 2
 * Déclarez deux variables : admin and name.
@@ -10,7 +11,10 @@
 let admin;
 let name;
 
-name = "John";
+name = 'John';
 admin = name;
 
 alert(admin);
+alert(name);
+
+/* eslint-enable */

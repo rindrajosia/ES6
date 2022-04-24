@@ -1,4 +1,5 @@
-/*****************************
+/* eslint-disable */
+/** ***************************
 ** Constante en majuscule ?
 ** importance: 4
 * Examinez le code suivant :
@@ -18,3 +19,4 @@ const AGE = someCode(BIRTHDAY); // créer en majuscule ?
 
 const BIRTHDAY = '18.04.1982'; // Oui doit être en majuscule
 const AGE = someCode(BIRTHDAY); // Non, doit être en miniscule puisque la valeur de AGE ne sera connue qu'apres execution de la foncton someCode()
+/* eslint-enable */
